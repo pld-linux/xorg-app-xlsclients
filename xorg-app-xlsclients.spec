@@ -1,5 +1,5 @@
 Summary:	xlsclients application
-Summary(pl.UTF-8):   Aplikacja xlsclients
+Summary(pl.UTF-8):	Aplikacja xlsclients
 Name:		xorg-app-xlsclients
 Version:	1.0.1
 Release:	1
