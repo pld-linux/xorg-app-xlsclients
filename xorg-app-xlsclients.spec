@@ -1,5 +1,5 @@
 Summary:	xlsclients application
-Summary(pl):	Aplikacja xlsclients
+Summary(pl.UTF-8):   Aplikacja xlsclients
 Name:		xorg-app-xlsclients
 Version:	1.0.1
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 xlsclients application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja xlsclients.
 
 %prep
