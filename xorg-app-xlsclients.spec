@@ -1,19 +1,19 @@
 Summary:	xlsclients application to list client applications running on a display
 Summary(pl.UTF-8):	Aplikacja xlsclients do wypisywania aplikacji klienckich działających na ekranie
 Name:		xorg-app-xlsclients
-Version:	1.1.0
+Version:	1.1.1
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xlsclients-%{version}.tar.bz2
-# Source0-md5:	550a0fee047c5043f2cbf190b41f8a1b
+# Source0-md5:	6d42621616da0c720f640d23873604ce
 URL:		http://xorg.freedesktop.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	libxcb-devel
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xcb-util-devel
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
