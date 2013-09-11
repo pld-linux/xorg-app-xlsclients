@@ -49,4 +49,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc COPYING ChangeLog README
 %attr(755,root,root) %{_bindir}/xlsclients
-%{_mandir}/man1/xlsclients.1x*
+%{_mandir}/man1/xlsclients.1*
